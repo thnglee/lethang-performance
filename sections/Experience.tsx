@@ -10,7 +10,7 @@ const experiences: ExperienceType[] = [
         role: 'Freelance Shopify',
         company: 'Online Storepage Cloning and Optimizing, Integrating Apps',
         period: '10/2025 – now',
-        location: 'Hybrid & Remote',
+        location: 'Remote',
         description: 'Cloned storefronts using modern tech stack. Implemented high-converting UI, custom elements and ensured responsiveness on mobile devices. Researched and integrated 3rd-party apps including Judge.me, Kaching Bundle, Meta Pixel, and more.',
         skills: ['Shopify Liquid', 'Figma UI/UX', 'Front-end Development'],
         links: [
