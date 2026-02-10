@@ -13,7 +13,8 @@ export function Hero() {
                 // style={{ backgroundImage: 'url(/hero-ghost.jpg)' }} // Placeholder, user needs to add image
                 />
                 {/* Gradient Fade to Black */}
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-obsidian/80 to-obsidian" />            </div>
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-obsidian/80 to-obsidian" />
+            </div>
 
             <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
                 <motion.div
