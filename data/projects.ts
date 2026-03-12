@@ -18,19 +18,19 @@ export const projects: Project[] = [
     id: "01",
     slug: "sculptique",
     title: "Sculptique",
-    category: "SHOPIFY STOREFRONT",
+    category: "DROPSHIPPING STOREFRONT",
     icon: "/sculptique/scul.png",
     image: "/sculptique/scultique.png",
     description:
-      "A pixel-perfect clone of Sculptique's Shopify storefront. Cloned storefronts using modern tech stack, implemented high-converting UI, custom elements and ensured responsiveness on mobile devices. Researched and integrated 3rd-party apps including Judge.me, Kaching Bundle, and Meta Pixel.",
+      "A high-converting Shopify storefront built for the supplements dropshipping niche. Integrated Meta Pixel for accurate conversion tracking, set up Judge.me for social proof, and added Kaching Bundle to drive AOV. Optimized mobile UX to reduce drop-off and support paid traffic landing quality. The goal: a store built to receive Facebook Ads traffic and convert.",
     techStack: [
-      "Shopify Liquid",
-      "HTML/CSS",
-      "JavaScript",
-      "Figma",
+      "Meta Pixel",
+      "Facebook Ads",
+      "Shopify",
       "Judge.me",
       "Kaching Bundle",
-      "Meta Pixel",
+      "AOV Optimization",
+      "Conversion Rate Optimization",
     ],
     externalLink: "https://sculptique-html.vercel.app/",
     githubLink: "https://github.com/thnglee/Sculptique-Shopify",
@@ -39,12 +39,12 @@ export const projects: Project[] = [
     id: "02",
     slug: "fiber",
     title: "fiber",
-    category: "BROWSER EXTENSION",
+    category: "AI PRODUCTIVITY TOOL",
     icon: "/fiber/fiber-icon.png", // Icon for project card
     image: "/fiber/fiber.png", // Main hero image
     video: "/fiber/fiber.mp4",
     description:
-      "A Vietnamese news summarization browser extension that works directly on Vietnamese news websites, embedded fact-check feature for non-friction use of fact-checking any content upon any websites.",
+      "An AI-powered browser extension for Vietnamese news summarization and real-time fact-checking. Built to demonstrate applied AI and data synthesis capabilities — the same analytical mindset used to process campaign performance data, identify patterns, and extract actionable insights from large volumes of information.",
     techStack: [
       "Plasmo",
       "React",
@@ -67,12 +67,11 @@ export const projects: Project[] = [
     id: "03",
     slug: "nextcapy",
     title: "nextcapy",
-    category: "FIRMWARE PROJECT",
+    category: "D2C PRODUCT — NEXTSTART",
     icon: "/capy/capy-icon.png", // Icon for project card
     image: "/capy/capy1.jpg", // Main hero image
-    description: `A project that I was pursuing while participating in NextStart Incubator program. This is the backend and web-client of a system supporting an IoT device that acts as an AI companion for children. 
-        My task was to fully customize the UI/UX into a Vietnamese-friendly version while deploying the system on a customized server to analyze token usages and costs of different LLMs.`,
-    techStack: ["Vue.js", "Python", "Docker", "Digital Ocean"],
+    description: `A D2C product built during the NextStart Incubator program — an AI companion device for children. My role extended beyond technical work: I conducted market research, defined target audience segments, and helped shape the go-to-market strategy. This project sharpened my ability to connect product positioning with customer acquisition thinking.`,
+    techStack: ["Market Research", "Audience Segmentation", "Go-to-Market", "Vue.js", "Docker"],
     externalLink: "https://nextcapy.studio",
     githubLink: "https://github.com/NextCapy/capy-client",
     gallery: ["/capy/capy2.jpg"],
@@ -81,13 +80,13 @@ export const projects: Project[] = [
     id: "04",
     slug: "taichinhxanh",
     title: "taichinhxanh.info",
-    category: "LANDING PAGE",
+    category: "GROWTH LANDING PAGE",
     icon: "/tcx/tcx-icon.png", // Icon for project card
     image: "/tcx/tcx.jpg", // Main hero image
     video: "/tcx/tcx.mp4",
     description:
-      "A landing page for TCX JSC. that was made within a very short amount of time to support the funding round of the business.",
-    techStack: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
+      "A conversion-focused landing page for TCX JSC., built under tight deadline to support a funding round. Designed with a clear CTA hierarchy and trust-building elements — applying the same principles used in high-performing ad landing pages to minimize bounce and drive action.",
+    techStack: ["Conversion Optimization", "Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
     externalLink: "https://taichinhxanh.info",
     githubLink: "https://github.com/thnglee/tcx",
   },

@@ -7,12 +7,23 @@ import { ExperienceItem, Experience as ExperienceType } from '@/components/exper
 const experiences: ExperienceType[] = [
     {
         id: '01',
-        role: 'Freelance Shopify',
-        company: 'Online Storepage Cloning and Optimizing, Integrating Apps',
-        period: '10/2025 – now',
+        role: 'Performance Marketing Specialist',
+        company: 'MISEN CO.LTD',
+        period: '01/2026 – 03/2026',
         location: 'Remote',
-        description: 'Cloned storefronts using modern tech stack. Implemented high-converting UI, custom elements and ensured responsiveness on mobile devices. Researched and integrated 3rd-party apps including Judge.me, Kaching Bundle, Meta Pixel, and more.',
-        skills: ['Shopify Liquid', 'Figma UI/UX', 'Front-end Development'],
+        description: 'Managed Google Ads Search campaigns with a $1,500/day budget across multiple high-ticket product categories, maintaining target ROAS through continuous bid strategy and keyword optimisation. Developed keyword strategies — match types, negative keyword lists, search term mining — to improve traffic quality and reduce wasted spend. Set up and maintained conversion tracking via Google Tag Manager to ensure accurate attribution and data-driven budget allocation.',
+        skills: ['Google Ads', 'Search Campaigns', 'Keyword Strategy', 'Conversion Tracking', 'ROAS', 'High-ticket D2C'],
+        links: [],
+        media: []
+    },
+    {
+        id: '02',
+        role: 'Shopify Store Operations & CRO',
+        company: 'Freelance E-commerce',
+        period: '12/2025 – 01/2026',
+        location: 'Remote',
+        description: 'Ran A/B tests on landing page layouts and offer structures to identify highest-converting combinations and reduce drop-off. Integrated upsell and post-purchase apps (OCU, ReConvert) alongside Klaviyo email flows to recover abandoned carts and lift AOV. Set up Meta Pixel with custom events for accurate conversion tracking across Shopify storefronts in the supplements niche.',
+        skills: ['A/B Testing', 'CRO', 'Klaviyo', 'Abandoned Cart Recovery', 'AOV', 'Shopify'],
         links: [
             { text: 'Project', url: 'https://sculptique-html.vercel.app/' },
             { text: 'GitHub', url: 'https://github.com/thnglee/Sculptique-Shopify' }
@@ -22,13 +33,13 @@ const experiences: ExperienceType[] = [
         ]
     },
     {
-        id: '02',
-        role: 'Finance & E-commerce Operations',
+        id: '03',
+        role: 'E-commerce Operations & Growth',
         company: 'Tai Chinh Xanh JSC.',
         period: '09/2025 – 02/2026',
         location: 'Ha Noi',
-        description: 'During this period of time, I had the opportunity to work alongside many talented individuals from the start-up ecosystem. I played a vital role in this business by managing the daily operations of finance and e-commerce. Our first brand, Softie, develops biological cleaning products powered by natural enzymes was getting attention from angle investors at the time.',
-        skills: ['E-commerce', 'Management Accounting'],
+        description: 'Orchestrated e-commerce team workflows for the "Softie" brand, coordinating between marketing, operations, and finance to sustain growth momentum. Built integrated performance dashboards combining sales data and financial metrics (revenue, margin, CAC) to support data-driven marketing decisions. Analyzed campaign and sales reports to identify cost-reduction and revenue-growth opportunities, directly influencing budget allocation.',
+        skills: ['E-commerce Operations', 'Performance Reporting', 'Data-driven Decision Making', 'CAC Analysis'],
         links: [
             { text: 'Website', url: 'https://www.taichinhxanh.info/' },
             { text: 'Article', url: 'https://tienphong.vn/nhung-ong-chu-sinh-vien-khoi-nghiep-xanh-post1802928.tpo?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPNDM3NjI2MzE2OTczNzg4AAEeGkoYZZsUdFcfhb7no7_bJsMJtXoL5ZxRInEbC4s2ldDWgwgD3kJzRwZS1XQ_aem_ZkNh2DnUVBg-S98zMQdueQ' }
@@ -39,13 +50,13 @@ const experiences: ExperienceType[] = [
         ]
     },
     {
-        id: '03',
-        role: 'Batch-1 Member - Tech Business Development',
-        company: 'NextStart Incubator',
+        id: '04',
+        role: 'Growth & Business Development',
+        company: 'NextStart Incubator — NextTech',
         period: '06/2025 – 10/2025',
         location: 'Hanoi',
-        description: 'Within 4 months of crashing and burning, I’ve dived deep into the startup world — from market research and business ideation to product development and marketing. I failed often, learned fast, and grew even faster. Beyond building projects, I built resilience, adaptability, and a founder’s mindset. Most of all, I met incredible peers and discovered how beautiful the chaos of building something from nothing can be. ',
-        skills: ['Front-end Development', 'DevOps', 'Business Development'],
+        description: 'Conducted market research and competitive analysis for D2C product concepts, validating demand and identifying target audience segments. Developed go-to-market strategies and pitched growth plans to mentors and industry experts. Collaborated across product, marketing, and tech teams to align campaigns with customer acquisition goals — building a founder\'s mindset around moving fast, testing ideas, and iterating based on data.',
+        skills: ['Market Research', 'Audience Segmentation', 'Go-to-Market Strategy', 'D2C'],
         links: [
             { text: 'Article', url: 'https://trading.vietcap.com.vn/ai-news/post-detail/nextstart-incubator-vuon-uom-tai-nang-khoi-nghiep-chao-don-khoa-dau-tien' },
             { text: 'Project', url: 'nextcapy.studio' }
@@ -56,13 +67,13 @@ const experiences: ExperienceType[] = [
         ]
     },
     {
-        id: '04',
-        role: 'VJ - Content Creator, UI/UX Testing, Bug Reporting',
+        id: '05',
+        role: 'Content Creator & Growth Analyst',
         company: 'Thinkmay CO.,LTD',
         period: '06/2025 – 09/2025',
         location: 'Hanoi',
-        description: 'I worked directly with the CEO to align creative content with broader business objectives and market positioning strategies. I also managed the end-to-end creative process, from conceptualization to final production, in short to make things grow. Other time I conducted UI testing of landing page to optimize conversion rate and ensure smooth user experience.',
-        skills: ['Content Ideation & Production', 'Data-driven Decision Making'],
+        description: 'Worked directly with the CEO to align ad creatives and content with broader growth and market positioning objectives. Managed end-to-end content production cycles — from concept to final asset — with a focus on driving engagement and conversion. Conducted landing page analysis and A/B testing to identify UX friction points and optimize conversion rates.',
+        skills: ['Ad Creative Production', 'A/B Testing', 'Conversion Rate Optimization', 'Content Strategy'],
         links: [
             { text: 'Website', url: 'https://thinkmay.net/' },
             { text: 'Tiktok', url: 'https://www.tiktok.com/@thangoncloud' },

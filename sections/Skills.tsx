@@ -8,21 +8,21 @@ import Link from 'next/link';
 const skills = [
     {
         id: '01',
-        title: 'Shopify & Frontend Development',
-        description: 'Building scalable web architectures and custom Shopify solutions, focusing on high-performance interfaces that bridge technical complexity with seamless user experience.',
-        href: '/#software-architecture'
+        title: 'Facebook Ads & Paid Performance',
+        description: 'Hands-on experience with Meta Ads Manager: campaign setup, audience targeting, budget management, and optimization toward ROAS, CPA, and conversion KPIs. Comfortable running A/B tests to find winning creatives and scaling what works.',
+        href: '/#paid-ads'
     },
     {
         id: '02',
-        title: 'Ecommerce Operations',
-        description: 'Executing comprehensive ecommerce plans, coordinating closely with marketing teams to ensure operational workflows align perfectly with growth strategies.',
+        title: 'Dropshipping & E-commerce Operations',
+        description: 'Direct experience operating Shopify stores in dropshipping and POD models — from product research and supplier coordination to storefront optimization and AOV improvement through strategic app integrations.',
         href: '/#ecommerce'
     },
     {
         id: '03',
-        title: 'Marketing Fundamentals',
-        description: 'Applying core marketing concepts and consumer psychology to development. I leverage data-driven metrics to engineer high-converting features and optimize store UI for maximum engagement.',
-        href: '/#marketing'
+        title: 'Data Analysis & Performance Reporting',
+        description: 'Building performance dashboards that combine ad spend, sales, and margin data to surface actionable insights. Analytical mindset applied to interpreting ROAS, CAC, LTV, and CTR trends to guide budget allocation decisions.',
+        href: '/#analytics'
     }
 ];
 
